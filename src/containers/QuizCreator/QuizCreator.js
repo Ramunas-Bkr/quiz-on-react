@@ -126,7 +126,7 @@ class QuizCreator extends Component {
   
     render() {
       const select = <Select
-        label="Выберите правильный ответ"
+        label="Pasirinkite teisingą atsakymą"
         value={this.state.rightAnswerId}
         onChange={this.selectChangeHandler}
         options={[
